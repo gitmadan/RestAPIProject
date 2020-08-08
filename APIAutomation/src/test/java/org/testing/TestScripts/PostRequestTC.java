@@ -32,7 +32,7 @@ public class PostRequestTC {
 	Random r=new Random();                                                          // random Id generate
 	Integer n=r.nextInt();
 	Payload=JsonVariableReplacement.jsonVariable(Payload, "id", n.toString()); 
-	Payload=JsonVariableReplacement.jsonVariable(Payload, "lastname", "gitikaMadanPahuja");
+	Payload=JsonVariableReplacement.jsonVariable(Payload, "lastname", "gitPahuja");
 	//System.out.println(Payload); // to print data
 	
 	Properties pr=PropertiesFileLoad.propertiesFile();                                 // properties file load
