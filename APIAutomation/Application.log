@@ -1,0 +1,16 @@
+2020-08-14 16:38:56 {PostRequestTC} (main:) TestCase Pass
+2020-08-14 16:55:24 {PostRequestTC} (main:)  TC failed as Status code is not matching 200 is expected but actual is 404
+2020-08-14 16:55:24 {PostRequestTC} (main:)  TC failed as Status code is not matching 200 is expected but actual is 404
+2020-08-14 16:55:25 {PostRequestTC} (main:)  TC failed as Status code is not matching 200 is expected but actual is 404
+2020-08-14 16:55:25 {PostRequestTC} (main:) Pass
+2020-08-14 16:55:25 {PostRequestTC} (main:) Pass
+2020-08-14 16:55:26 {PostRequestTC} (main:) TestCase Pass
+2020-08-19 14:06:14 {PostRequestTC} (main:)  TC failed as Status code is not matching 200 is expected but actual is 404
+2020-08-19 14:06:14 {PostRequestTC} (main:)  TC failed as Status code is not matching 200 is expected but actual is 404
+2020-08-19 14:06:14 {PostRequestTC} (main:)  TC failed as Status code is not matching 200 is expected but actual is 404
+2020-08-19 14:06:15 {PostRequestTC} (main:) TestCase Pass
+2020-08-19 14:15:25 {PostRequestTC} (main:)  TC failed as Status code is not matching 200 is expected but actual is 404
+2020-08-19 14:15:25 {PostRequestTC} (main:)  TC failed as Status code is not matching 200 is expected but actual is 404
+2020-08-19 14:15:25 {PostRequestTC} (main:)  TC failed as Status code is not matching 200 is expected but actual is 404
+2020-08-19 14:15:26 {PostRequestTC} (main:) TestCase Pass
+2020-08-19 14:34:38 {PostRequestTC} (main:) TestCase Pass

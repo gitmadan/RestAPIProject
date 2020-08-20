@@ -3,8 +3,10 @@ package org.testing.TestScripts;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.automationtesting.excelreport.Xl;
 import org.testing.TestSteps.HTTPMethods;
 import org.testing.utilities.PropertiesFileLoad;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 
 import com.jayway.restassured.response.Response;
@@ -34,4 +36,9 @@ public class DeleteRequestTC {
 	
 	}
 	
+	@AfterSuite
+	public void afterSuite() throws Exception
+	{
+	Xl.generateReport("../Xl_Report.xlsx");
+	}
 }

@@ -8,6 +8,7 @@ import java.util.Random;
 import org.testing.TestSteps.HTTPMethods;
 import org.testing.utilities.JsonFileRead;
 import org.testing.utilities.JsonVariableReplacement;
+import org.testing.utilities.LogsCapture;
 import org.testing.utilities.PropertiesFileLoad;
 import org.testing.utilities.ResponseExtractionUsingJsonPath;
 import org.testng.annotations.Test;
@@ -45,11 +46,14 @@ public class PostRequestTC {
 	
 	/* Response Code validation*/
 	ResponseStatusCodeValidation.responseStatusCode(res, 201);
+	
 	/*Response Data Validation*/
 	ResponseDataValidation.responseDataValidate(res,"gitikaMadanPahuja" , "lastname");
 	
 	id=ResponseExtractionUsingJsonPath.responseExtract(res , "id");
 	lastname=ResponseExtractionUsingJsonPath.responseExtract(res , "lastname");
+	
+	LogsCapture.takeLogs("PostRequestTC", "TestCase Pass");
 	}
 	
 	
